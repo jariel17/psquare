@@ -9,4 +9,12 @@ export class AppComponent {
   title = 'PSquare';
   a = 10;
   b = 15;
+  listo = false;
+
+  constructor(){
+    setTimeout(() => {
+      this.listo = true;
+    }, 3000);
+  }
+
 }
