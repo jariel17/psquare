@@ -1,4 +1,9 @@
-<!--The content below is only a placeholder and can be replaced.-->
+<!--The content below is only a placeholder and can be replaced.
+Press Shift + Alt + F to indent
+commit -am "message" to commit already commited files
+-->
 <ul>
-  <li *ngFor="let lugar of lugares">{{lugar.nombre}}</li>
+  <ng-container *ngFor="let lugar of lugares">
+    <li *ngIf="lugar.activo">{{lugar.nombre}}</li>
+  </ng-container>
 </ul>
