@@ -10,7 +10,8 @@ export class AppComponent {
   a = 10;
   b = 15;
   listo = false;
-
+  nombre = '';
+  apellido = '';
   constructor() {
     setTimeout(() => {
       this.listo = true;

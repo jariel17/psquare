@@ -8,4 +8,17 @@
   </h2>
 <hr />
 <button [disabled]="!listo" (click)="hacerAlgo()">Click me!</button>
+<br />
+<br />
+<input type="text" placeholder="Tu nombre" [(ngModel)]="nombre" />
+<br />
+Mi nombre es {{nombre}}
+<br />
+<br />
+<input type="text" placeholder="Tu apellido" [(ngModel)]="apellido" />
+<br />
+Mi apellido es {{apellido}}
+<br />
+<br />
+Mi nombre completo es {{nombre + " " + apellido}}
 </div>
