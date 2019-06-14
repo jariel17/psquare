@@ -11,10 +11,12 @@ export class AppComponent {
   b = 15;
   listo = false;
 
-  constructor(){
+  constructor() {
     setTimeout(() => {
       this.listo = true;
     }, 3000);
   }
-
+hacerAlgo() {
+  alert('Haciendo algo!');
+}
 }
