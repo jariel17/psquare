@@ -7,17 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'PSquare';
-  a = 10;
-  b = 15;
-  listo = false;
-  nombre = '';
-  apellido = '';
+  lugares: any = [
+  {nombre: 'Florería la Gardenia'},
+  {nombre: 'Donas la pasadita'},
+  {nombre: 'Veterinaria huellitas felices'}
+  ];
+
   constructor() {
-    setTimeout(() => {
-      this.listo = true;
-    }, 3000);
   }
-hacerAlgo() {
-  alert('Haciendo algo!');
-}
 }
