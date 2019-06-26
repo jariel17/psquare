@@ -2,6 +2,12 @@
 Press Shift + Alt + F to indent
 commit -am "message" to commit already commited files
 -->
+<ul>hola</ul>
+<agm-map [latitude]="lat" [longitude]="lng">
+  <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+</agm-map>
+
+<hr />
 <ul>
   <ng-container *ngFor="let lugar of lugares">
     <li *ngIf="lugar.activo">{{lugar.nombre}}</li>
