@@ -13,3 +13,9 @@ commit -am "message" to commit already commited files
     <li *ngIf="lugar.activo">{{lugar.nombre}}</li>
   </ng-container>
 </ul>
+
+<ul>
+  <ng-container *ngFor="let lugar of lugares; let i = index">
+    <li [ngStyle]="{color: (lugar.activo) ? 'black' : 'gray' }" [ngClass]="{numero_par: (i+1) % 2 !== 0}"> {{lugar.nombre}} </li>
+  </ng-container>
+</ul>

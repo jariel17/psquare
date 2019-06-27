@@ -15,7 +15,7 @@ export class AppComponent {
     { activo: true, nombre: 'Veterinaria huellitas felices' },
     { activo: false, nombre: 'Sushi Suhiroll' },
     { activo: true, nombre: 'Hotel la Gracia' },
-    { activo: true, nombre: 'Zapatería el Clavo' }
+    { activo: false, nombre: 'Zapatería el Clavo' }
   ];
   constructor() {
   }
