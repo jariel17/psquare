@@ -9,12 +9,12 @@ export class LugaresComponent {
   lng = -82.3799246;
   title = 'PSquare';
   lugares: any = [
-    { plan: 'pagado', cercania: 1, distancia: 1, activo: true, nombre: 'Florería la Gardenia' },
-    { plan: 'gratuito', cercania: 1, distancia: 1.8, activo: true, nombre: 'Donas la pasadita' },
-    { plan: 'gratuito', cercania: 2, distancia: 5, activo: true, nombre: 'Veterinaria huellitas felices' },
-    { plan: 'gratuito', cercania: 3, distancia: 10, activo: false, nombre: 'Sushi Suhiroll' },
-    { plan: 'pagado', cercania: 3, distancia: 35, activo: true, nombre: 'Hotel la Gracia' },
-    { plan: 'gratuito', cercania: 3, distancia: 120, activo: false, nombre: 'Zapatería el Clavo' }
+    {id: 1, plan: 'pagado', cercania: 1, distancia: 1, activo: true, nombre: 'Florería la Gardenia' },
+    {id: 2, plan: 'gratuito', cercania: 1, distancia: 1.8, activo: true, nombre: 'Donas la pasadita' },
+    {id: 3, plan: 'gratuito', cercania: 2, distancia: 5, activo: true, nombre: 'Veterinaria huellitas felices' },
+    {id: 4, plan: 'gratuito', cercania: 3, distancia: 10, activo: false, nombre: 'Sushi Suhiroll' },
+    {id: 5, plan: 'pagado', cercania: 3, distancia: 35, activo: true, nombre: 'Hotel la Gracia' },
+    {id: 6, plan: 'gratuito', cercania: 3, distancia: 120, activo: false, nombre: 'Zapatería el Clavo' }
   ];
   constructor() {
   }
